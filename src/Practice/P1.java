@@ -103,8 +103,10 @@ public class P1 {
 
 //boolean
 
-        boolean isJavaFun = True;
+        boolean isJavaFun = true;
         System.out.println(isJavaFun);
+
+
 
 
 
