@@ -1,0 +1,8 @@
+=> it is possible to nest classes (a class within a class)
+=> purpose of nested classes - group classes that belong together
+=> make code readable and maintainble
+
+
+=> to access inner class, create an object of outer class, then create an object of inner class
+
+

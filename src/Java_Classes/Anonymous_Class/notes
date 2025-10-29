@@ -1,0 +1,6 @@
+=> class without name
+=> it is created and used at the same time
+
+=> used to override methods of existing class or interface, without writing
+separate class file
+

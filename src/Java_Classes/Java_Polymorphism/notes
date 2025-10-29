@@ -1,0 +1,8 @@
+Polymorphism = means "many forms" and it occurs when we have many classes
+that are related to each other by inheritance
+
+=>inheritance lets us inherit attributes and methods from another class
+=> polymorphism uses those methods to perform different tasks.
+=> allows us to perform single action in different ways
+
+

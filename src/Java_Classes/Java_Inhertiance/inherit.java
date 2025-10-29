@@ -19,6 +19,6 @@ class Car extends Vehicle{
         myCar.honk();
 
         System.out.println(myCar.brand + " " + myCar.modelName);
-        
+
     }
 }

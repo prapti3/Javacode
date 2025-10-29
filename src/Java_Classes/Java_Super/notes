@@ -1,0 +1,10 @@
+=> used to refer to Parent class of subclass
+
+=> The most common use of the super keyword is to eliminate the confusion
+ between superclasses and subclasses that have methods with the same name.
+
+=> two main ways:
+1. to access attributes and methods from parent class
+2. to call parent class constructor
+
+
