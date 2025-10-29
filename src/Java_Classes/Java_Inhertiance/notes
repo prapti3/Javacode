@@ -1,0 +1,8 @@
+=> possible to inherit attributes and methods from one class to another.
+
+subclass(child) = class that inherit from another class
+superclass(parent) = class being inherited from
+
+
+extends keyword = used to inherit
+

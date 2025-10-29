@@ -1,0 +1,10 @@
+Encapsulation = make sure that "sansitive" data is hidden from users .
+- declare class variable/attribute as private
+- provide public get and set method to access and update values of privae variable
+
+=> get method = returns varabile value
+=> set method = sets the value
+
+
+
+

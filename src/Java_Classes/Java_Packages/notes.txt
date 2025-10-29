@@ -1,0 +1,33 @@
+
+packages = used to group related classes.
+=> folder in a file directory
+=> used to avoid name conflict, write better maintainable code
+
+** TYpes
+1. build in
+
+- Java API = library of prewritten classes
+- free to use, includes JDE
+- library contains components for managinig input, database programming, etc
+- library is divided into
+a. packages
+b. classes
+
+- means we can either import a single class (along with methods and attribtues)
+- or complete package that contains all the classes that belong to specified package
+
+
+ex = import package.name.Class;   // Import a single class
+     import package.name.*;   // Import the whole package
+
+     import java.util.Scanner;
+     => java.util - package
+     => Scanner - class of java.util package
+     => create object of scanner class to use
+
+
+
+2. user-defined
+=> to create own package - understand that java uses file system directory to store them
+
+

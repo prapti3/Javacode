@@ -8,7 +8,7 @@ public class non_access_modifier {
 //    commonly used = final, static, abstract
 
     /*
-    * final = dont want to override/ change attribute values */
+    * 1. final = dont want to override/ change attribute values */
 
     final int x = 10;
     static void myStaticMethod(){
@@ -20,6 +20,11 @@ public class non_access_modifier {
         non_access_modifier myObj = new non_access_modifier();
 //        myObj.x =30;
 
+
+        /*
+         * 2.  static = belongs to class, not to any specific object
+         * means you can call it without creating an object of class*/
+
         myStaticMethod();
         non_access_modifier.myStaticMethod();
 
@@ -27,8 +32,10 @@ public class non_access_modifier {
     }
 
     /*
-    * static = belongs to class, not to any specific object
-    * means you can call it without creating an object of class*/
+    * 3. Abstract - method belongs to an abstract class, and it does not have a body.
+    * the body is provided by subclass
+    *
+    * */
 
 
 
