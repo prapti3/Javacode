@@ -1,0 +1,11 @@
+=> List interface is part of java collections framework
+=> represents an ordered collection of elements
+
+=> access elements by index, add duplicated and maintain order
+=> list is interface, cannot create a list object directly
+
+=> to use class that implements the list interface,
+1. arraylist = resizable array with fast random access
+2. linkedList = like a train of cars you can easily attach or remove
+
+

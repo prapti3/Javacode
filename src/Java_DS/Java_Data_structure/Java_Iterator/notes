@@ -1,0 +1,6 @@
+** Iterators
+When learning about data structures, you will often hear about iterators too.
+
+An iterator is a way to loop through elements in a data structure.
+
+It is called an "iterator" because "iterating" is the technical term for looping.
