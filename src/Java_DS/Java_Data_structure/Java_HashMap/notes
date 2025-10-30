@@ -1,0 +1,9 @@
+A HashMap stores key-value pairs, which are great when
+you want to store values and find them by a key (like a name or ID)
+
+
+Data Structures Overview
+Data Structure	   Stores	          Keeps Order?	Allows Duplicates?	          Best For
+ArrayList	     Ordered elements	    Yes	             Yes	                 Accessing elements by index
+HashSet	          Unique elements	     No	             No	                    Avoiding duplicates, fast checks
+HashMap        	Key-value pairs        	No	            Yes (keys are unique)	Fast lookup by key
