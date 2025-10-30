@@ -1,0 +1,9 @@
+In Java, you can create a new file with the createNewFile() method from the File class.
+
+** This method returns:
+
+true - if the file was created successfully
+false - if the file already exists
+Note that the method is enclosed in a try...catch block. This is necessary because it throws an IOException if an error occurs (if the file cannot be created for some reason):
+
+

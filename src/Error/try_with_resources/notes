@@ -1,0 +1,10 @@
+** JAVA Close Resources
+When working with files, streams, or other resources, it is important to close them after use. If you forget to close a resource, it may keep using memory or even prevent you from opening the file again until the program ends
+
+** try-with-resources
+Since Java 7, you can use try-with-resources. It is a special form of try that works with resources (like files and streams). The resource is declared inside parentheses try(...), and Java will close it automatically when the block finishes - even if an error occurs.
+
+** Why use try-with-resources?
+Safer - resources are always closed, even if an exception occurs.
+Cleaner - no need to write close() calls.
+Shorter code - less boilerplate, easier to read.

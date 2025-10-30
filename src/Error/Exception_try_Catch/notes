@@ -1,0 +1,43 @@
+* Java Exceptions
+As mentioned in the Errors chapter, different types of errors can occur
+ while running a program - such as coding mistakes, invalid input, or
+ unexpected situations.
+
+When an error occurs, Java will normally stop and generate an error message.
+ The technical term for this is: Java will throw an exception
+ (throw an error).
+
+
+** Exception Handling (try and catch)
+
+=> Exception handling lets you catch and handle errors during runtime - so your program doesn't crash.
+=> It uses different keywords:
+=> The try statement allows you to define a block of code to be tested for errors while it is being executed.
+=> The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+
+
+
+
+** Finally
+The finally statement lets you execute code, after try...catch, regardless of the result
+
+
+** Throw Keyword
+The throw statement allows you to create a custom error.
+The throw statement is used together with an exception type. There are many exception types available in Java: ArithmeticException, FileNotFoundException, ArrayIndexOutOfBoundsException, SecurityException, etc:
+
+
+** Errors and Exception Types
+
+Error/Exception	                     Description
+ArithmeticError         	    Occurs when a numeric calculation goes wrong
+ArrayIndexOutOfBoundsException	Occurs when trying to access an index number that does not exist in an array
+ClassNotFoundException	        Occurs when trying to access a class that does not exist
+FileNotFoundException	        Occurs when a file cannot be accessed
+InputMismatchException	        Occurs when entering wrong input (e.g. text in a numerical input)
+IOException                 	Occurs when an input or output operation fails
+NullPointerException	        Occurs when trying to access an object referece that is null
+NumberFormatException	        Occurs when it is not possible to convert a specified string to a numeric type
+StringIndexOutOfBoundsException	Occurs when trying to access a character in a String that does not exist
+
+

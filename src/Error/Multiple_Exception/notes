@@ -1,0 +1,14 @@
+** Multiple Exceptions
+Sometimes, different errors (exceptions) can happen in the same try block. You can handle them with multiple catch blocks
+
+
+** One try, Many catch
+You can add more than one catch block, and Java will run the first one that matches the thrown exception type
+
+** Order Matters
+You should always put more specific exceptions first, and general ones later. Otherwise, the general catch will grab the error and the specific ones will never run
+
+
+** Multi-Catch
+Since Java 7, you can catch multiple exceptions in one catch block using the | symbol. This is useful when different exceptions should be handled in the same way, so you don't have to repeat code
+

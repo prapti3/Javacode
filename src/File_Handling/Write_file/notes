@@ -1,0 +1,6 @@
+** Write To a File
+If you are just starting with Java, the easiest way to write text to a file is by using the FileWriter class.
+In the example below, we use FileWriter together with its write() method to create and write some text into a file.
+Note: When you are done, you should close the writer with the close() method:
+
+
