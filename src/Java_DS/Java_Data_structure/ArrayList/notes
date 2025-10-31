@@ -2,3 +2,11 @@
 An ArrayList is a resizable array that can grow as needed.
 It allows you to store elements and access them by index.
 
+
+=> built in array & ArrayList in Java
+=> size of array cannot be modified
+
+** elements in ArrayList are objects.
+** use wrapper classes to use other type of array objects in ArrayList
+
+
